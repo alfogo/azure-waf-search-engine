@@ -8,3 +8,11 @@ Basic search engine developed for testing Azure WAF functionalities with Front D
 
 - ``` ' OR 1=1 ```
 - ``` <script type="text/javascript"> anything </script> ```
+
+<img src="https://raw.githubusercontent.com/KamalRathnayake/Dapr-Todo-App/main/image.png" width="500" />
+
+### Instructions
+
+1. Deploy web app to Azure App Service
+1. Add an origin group to Azure Front Door pointing to the App Service
+1. Test common attacks to see how Front Door detects and protects the backend
